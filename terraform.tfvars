@@ -1,0 +1,5 @@
+region_var ="ap-south-1"
+intancetype_var= "t2.small"
+accesskey_var= "AKIAUKBLLBPBLEMLQUHG" 
+secretkey_var="zRL811iARqLcn0JamJQN553BgA7Dw54pVJVRL1Dn" 
+filename ="D:\\Aws_Devops\\sample.pem"
