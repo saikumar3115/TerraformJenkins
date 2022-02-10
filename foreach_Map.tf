@@ -11,5 +11,9 @@
           staging = "staging-env"
           prod = "prod-env"
         }
-      
+      bucket = "${each.key}-${each.value}"
+      acl = "private"
+      tags={
+        "Name" = "${each.key}-${each.value}"
+      }
     }
